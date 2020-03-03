@@ -12,19 +12,6 @@ imshow(BW1);
 title('Sobel');
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% dwt2- haar, sym4-both on colored and
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% black and white
-% clc; clear all; close all; 
-% Img=imread('D:\MATLAB\bin\lena.jpg');
-% Img1=uint8(rgb2gray(Img));
-% % [cA,cH,cV,cD] = dwt2(Img1,'sym4','mode','per');   %to find wavelet transform
-% % img_dwt2=uint8([cA cH;cV cD]);
-% % figure;
-% % imshow(img_dwt2);
-% [cA,cH,cV,cD] = dwt2(Img,'sym4','mode','per'); 
-% imagesc(cD)
-
-
 %%%%%%%%%%%%%%%%%%%% dwt2-
 Img=imread('D:\MATLAB\bin\lena.jpg');
 Img1=uint8(rgb2gray(Img));
